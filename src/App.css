@@ -1,0 +1,64 @@
+/* Main container */
+.watch {
+    background-color: #1e1e2f;
+    width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Time display */
+.display {
+    font-size: 40px;
+    margin: 20px 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: #2e2e45;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Common button styles */
+.watch button {
+    padding: 10px 18px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Start button */
+.start-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.start-button:hover {
+    background-color: #218838;
+}
+
+/* Stop button */
+.stop-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.stop-button:hover {
+    background-color: #c82333;
+}
+
+/* Reset button */
+.reset-button {
+    background-color: #ffc107;
+    color: black;
+}
+
+.reset-button:hover {
+    background-color: #e0a800;
+}
